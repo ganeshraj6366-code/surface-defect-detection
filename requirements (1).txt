@@ -1,0 +1,7 @@
+# Streamlit Community Cloud deployment.
+# tensorflow-cpu (not full tensorflow): no GPU on the free tier, and it's ~4x
+# smaller, which keeps the build inside the 1 GB memory limit.
+streamlit
+tensorflow-cpu
+pillow
+numpy
